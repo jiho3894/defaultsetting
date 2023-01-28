@@ -10,11 +10,11 @@
 
 # next.js
 /.next/
-/.vscode/
 /out/
 
 # production
 /build
+/.vscode/
 
 # misc
 .DS_Store
