@@ -11,15 +11,14 @@ export default function Home() {
   }
   return (
     <main>
-      {Topic &&
-        Topic.map((card) => {
-          return (
-            <div key={card.id} className="flex">
-              <span>{card.name}</span>
-              <Image width={100} height={100} alt={card.name} src={card.avatar}/>
-            </div>
-          );
-        })}
+      {Topic?.map((card) => {
+        return (
+          <div key={card.id} className="flex">
+            <span>{card.name}</span>
+            <Image width={100} height={100} alt={card.name} src={card.avatar} />
+          </div>
+        );
+      })}
     </main>
   );
 }
