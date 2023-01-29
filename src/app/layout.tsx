@@ -3,7 +3,7 @@ import ReactQueryWrapper from "./ReactQueryWrapper";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en">
+    <html>
       <head />
       <body>
         <ReactQueryWrapper>{children}</ReactQueryWrapper>
